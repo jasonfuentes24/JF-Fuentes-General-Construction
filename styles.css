@@ -1,0 +1,447 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    border-color: black;
+
+}
+
+
+p{
+    font-size:20px;
+    text-align: center;
+    color:#333333;
+}
+
+h3{
+    padding-top: 20px;
+    color: black;
+}
+
+body{
+    background: f1fbff;
+}
+
+h1{
+    color: #003366;
+    font-size: 50px ;
+}
+
+h2{
+    text-align: center;
+    color: #0055b3;
+    font-size: 40px;
+    
+}
+
+h3{
+    font-size: 30px;
+}
+
+
+.section-padding {
+    padding:70px 0; 
+}
+
+.carousel-item{
+    min-height: 300px;
+}
+
+.carousel-caption {
+    bottom: 200px;
+    z-index: 2; 
+}
+
+.carousel-caption h5{
+    text-transform: uppercase;
+    letter-spacing:2px;
+    margin-top: 25px;
+    font-size: 100px;
+}
+
+.carousel-caption p{
+    font-size: 25px;
+}
+
+
+.carousel-caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+  }
+  
+
+.carousel-inner::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2); /* Corrected color value */
+    z-index: 1;
+}
+
+@media only screen and (min-width:768) and (max-width:991px){
+    .carousel-caption{
+        bottom: 370px;
+    }
+    .carousel-caption p{
+       width: 100%; 
+    }
+}
+
+
+
+@media only screen and (max-width:767px){
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 125px;
+    }
+    .carousel-caption h5{
+
+    }
+    .carousel-captiona{
+        padding: 10px 15px;
+    }
+}
+
+
+
+.kitchen-section,
+.bathroom-section,
+.deck-section {
+  background-image: url('path_to_your_image.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+
+.kitchen-section:hover,
+.bathroom-section:hover,
+.deck-section:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+
+#service-section{
+    margin-bottom: px;
+    border-width: 1px;
+    padding: 50px;
+    border-bottom-style: solid;
+}
+
+
+.col-lg-4{
+    text-align: center;
+
+  }
+
+.fw-normal{
+    font-weight: bold;
+}
+
+.about-text{
+    margin-bottom: 150px;
+    text-align: center;
+
+}
+
+
+/* Column Styling */
+.row .col {
+    padding: 15px;
+    border:1px solid #e1e1e1; /* subtle border */
+    border-radius: 25px;
+    margin: 10px 5; /* space between columns */
+    background-color: #f9f9f9; /* light background */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* subtle shadow */
+}
+
+/* Header Styling */
+.service-section {
+    color: #333; /* dark grey color */
+    margin-bottom: 10px;
+}
+
+/* List Styling */
+
+.workprocess{
+background-color:  #f5f5f5;
+}
+
+
+
+/* CSS */
+/* CSS */
+.logo {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Automatically adjust the height while maintaining aspect ratio */
+    margin-right: 10px; /* Add margin to the right side to push it to the left */
+  }
+
+
+.footer{
+    border-width: 1px;
+    border-top-style: solid;
+}
+
+.container.text-center{
+    padding-bottom:100px ;
+    padding-top: 100px;
+}
+
+.about-section-padding{
+    border-width: 1px;
+    border-bottom-style: solid;
+    
+}
+
+.Service-h1{
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+
+
+.container.footer p {
+    font-size: 15px;
+    text-align: left;
+}
+
+.container.footer h4{
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+.featurette-divider {
+   padding-top: 30px;
+  
+}
+
+
+.question-link {
+    text-decoration: none;
+    cursor: pointer;
+    color: #007bff; /* Customize the color */
+  }
+  .question-link:hover {
+    text-decoration: underline;
+  }
+
+  .testimonial-carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 20px;
+  }
+  
+  .testimonial-item {
+    flex: 0 0 auto;
+    width: 300px;
+    margin: 0 10px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .testimonial-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-text {
+    font-style: italic;
+  }
+  
+  .testimonial-author {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+
+  .faq-section {
+    background-color: #f5f5f5; /* Light gray background */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.accordion-item {
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+.accordion-header {
+    margin-bottom: 5px;
+}
+
+.accordion-button {
+    background-color: #ffffff;
+    color: #333333;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #007bff; /* Active state color */
+    background-color: #e7e7e7;
+}
+
+.accordion-button:hover {
+    background-color: #e7e7e7; /* Hover state */
+}
+
+.accordion-body {
+    padding: 15px;
+    font-size: 14px;
+    color: #555555; /* Text color */
+}
+
+.contact-form-container {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px; /* Adjust as needed */
+    margin: auto;
+}
+
+.contact-form-header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #007bff; /* Primary color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+
+.contact {
+    padding: 20px 0;
+}
+
+.contact-info-section, .contact-form-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px; /* Spacing between sections on smaller screens */
+}
+
+.contact-info-item h4 {
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+.contact-info-item p, .contact-info-item a {
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.social-media-links a {
+    margin-right: 10px;
+    font-size: 24px;
+    color: #007bff;
+}
+
+.social-media-links a:hover {
+    color: #0056b3;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-input, .submit-btn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.submit-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 991px) {
+    .contact-info-section, .contact-form-container {
+        margin-bottom: 20px;
+    }
+}
+
+
+/* Remove the blue highlight on links */
+a:focus, a:hover {
+    outline: none;
+    text-decoration: none;
+}
+
+/* Style the service links */
+.service-link {
+    color: #333; /* Text color for normal state */
+    transition: color 0.3s; /* Smooth color transition on hover */
+    text-decoration: none;
+}
+
+.service-link:hover {
+    color: #007BFF; /* Text color on hover (blue) */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+
+
