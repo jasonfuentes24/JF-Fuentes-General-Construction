@@ -430,4 +430,8 @@ a:focus, a:hover {
 
 .testimonial-item h5 {
     color: rgb(255, 149, 41);
+    font-size: 25px;
+}
+.testimonial-item h5{
+    font-size:30px;
 }
