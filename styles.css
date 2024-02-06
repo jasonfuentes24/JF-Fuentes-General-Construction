@@ -233,20 +233,3 @@ body {
     background: linear-gradient(to bottom, #222, #111);
 }
 
-/* Footer styles */
-footer {
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-}
-
-.footer a {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.footer a:hover {
-    color: #f8f8f8;
-}
-
