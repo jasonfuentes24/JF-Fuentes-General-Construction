@@ -233,3 +233,45 @@ body {
     background: linear-gradient(to bottom, #222, #111);
 }
 
+/* Style the hr elements */
+.featurette-divider {
+    border-top: 2px solid #ccc;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  /* Style the featurette headings */
+  .featurette-heading {
+    font-size: 28px;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the lead paragraphs */
+  .lead {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  /* Style the images */
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+  
+  /* Style the links */
+  .featurette-heading a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .featurette-heading a:hover {
+    text-decoration: underline;
+  }
+  
