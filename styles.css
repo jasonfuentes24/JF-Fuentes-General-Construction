@@ -31,7 +31,7 @@ body {
 }
 
 .cover {
-    background-image: url('Gallery/cover.page.webp');
+    background-image: url('pictures/cover.page.webp');
     background-size: cover;
     background-position: center;
     height: 100vh;
