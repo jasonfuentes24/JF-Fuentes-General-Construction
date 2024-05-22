@@ -31,11 +31,7 @@ body {
 }
 
 .cover {
-<<<<<<< HEAD
     background-image: url('pictures/cover.page.webp');
-=======
-    background-image: url('Gallery/kitchen.remodeling.new.jpg');
->>>>>>> parent of 233d1aa (as)
     background-size: cover;
     background-position: center;
     height: 100vh;
