@@ -50,7 +50,7 @@ body {
 }
 
 .service-header {
-    color: navy; /* Navy blue header */
+    color: #0056b3; /* Modern blue header */
 }
 
 .service-item {
@@ -82,8 +82,8 @@ body {
 }
 
 .service-item .btn:hover {
-    background-color: #0056b3; /* Darker blue on hover */
-    border-color: #0056b3; /* Darker blue on hover */
+    background-color: #004494; /* Darker modern blue on hover */
+    border-color: #004494; /* Darker modern blue on hover */
 }
 
 .service-item .btn:focus {
@@ -100,7 +100,7 @@ body {
 .about-text h2 {
     font-size: 28px;
     font-weight: bold;
-    color: navy; /* Navy blue text */
+    color: #0056b3; /* Modern blue text */
 }
 
 .about-text p {
@@ -116,7 +116,7 @@ body {
 .work-process h2 {
     font-size: 28px;
     font-weight: bold;
-    color: navy; /* Navy blue text */
+    color: #0056b3; /* Modern blue text */
     margin-bottom: 40px;
 }
 
@@ -198,7 +198,7 @@ body {
 .contact-form-header {
     font-size: 28px;
     font-weight: bold;
-    color: navy; /* Navy blue text */
+    color: #0056b3; /* Modern blue text */
     margin-bottom: 40px;
 }
 
@@ -242,7 +242,7 @@ body {
 /* Style the featurette headings */
 .featurette-heading {
     font-size: 28px;
-    color: navy; /* Navy blue text */
+    color: #0056b3; /* Modern blue text */
     margin-top: 20px;
     margin-bottom: 10px;
 }
@@ -267,7 +267,7 @@ body {
 /* Style the links */
 .featurette-heading a {
     text-decoration: none;
-    color: navy; /* Navy blue text */
+    color: #0056b3; /* Modern blue text */
 }
 
 .featurette-heading a:hover {
