@@ -1,8 +1,13 @@
 /* Reset some default styles */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     background-color: #f8f8f8;
     color: #333;
+}
+
+/* Header styles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Navbar styles */
@@ -32,7 +37,7 @@ body {
     background-image: url('remodel/Kitchen.home.web.jpg');
     background-size: cover;
     background-position: center;
-    height: 60vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,66 +45,55 @@ body {
     text-align: center;
 }
 
-.cover .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.logo {
-    background-color: white;
-    margin-bottom: 20px;
-}
-
 .btn-lg {
     padding: 15px 30px;
 }
 
 /* CSS for Modern Styling of Service Section */
-    .services {
-        background-color: #f8f9fa; /* Light gray background */
-      }
-  
-      .service-header {
-        color: #333; /* Dark gray header */
-      }
-  
-      .service-item {
-        transition: transform 0.3s ease-in-out; /* Smooth transition effect */
-      }
-  
-      .service-item:hover {
-        transform: translateY(-5px); /* Hover animation */
-      }
-  
-      .service-item a {
-        text-decoration: none; /* Remove underline from links */
-      }
-  
-      .service-item img {
-        border-radius: 10px; /* Rounded corners for images */
-        width: 300px; /* Adjusted width */
-        height: 370px; /* Adjusted height */
-        object-fit: cover; /* Ensure images maintain aspect ratio */
-      }
-  
-      .service-item p {
-        color: #666; /* Dark gray text */
-      }
-  
-      .service-item .btn {
-        background-color: gray; /* Blue button background */
-        border-color: gray; /* Blue button border */
-      }
-  
-      .service-item .btn:hover {
-        background-color: #0056b3; /* Darker blue on hover */
-        border-color: #0056b3; /* Darker blue on hover */
-      }
-  
-      .service-item .btn:focus {
-        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); /* Blue focus shadow */
-      }
+.services {
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+.service-header {
+    color: #0056b3; /* Modern blue header */
+}
+
+.service-item {
+    transition: transform 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+.service-item:hover {
+    transform: translateY(-5px); /* Hover animation */
+}
+
+.service-item a {
+    text-decoration: none; /* Remove underline from links */
+}
+
+.service-item img {
+    border-radius: 10px; /* Rounded corners for images */
+    width: 300px; /* Adjusted width */
+    height: 370px; /* Adjusted height */
+    object-fit: cover; /* Ensure images maintain aspect ratio */
+}
+
+.service-item p {
+    color: #666; /* Dark gray text */
+}
+
+.service-item .btn {
+    background-color: gray; /* Gray button background */
+    border-color: gray; /* Gray button border */
+}
+
+.service-item .btn:hover {
+    background-color: #004494; /* Darker modern blue on hover */
+    border-color: #004494; /* Darker modern blue on hover */
+}
+
+.service-item .btn:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); /* Blue focus shadow */
+}
 
 .about-img img {
     max-width: 100%;
@@ -111,7 +105,7 @@ body {
 .about-text h2 {
     font-size: 28px;
     font-weight: bold;
-    color: #333;
+    color: #0056b3; /* Modern blue text */
 }
 
 .about-text p {
@@ -127,7 +121,7 @@ body {
 .work-process h2 {
     font-size: 28px;
     font-weight: bold;
-    color: #333;
+    color: #0056b3; /* Modern blue text */
     margin-bottom: 40px;
 }
 
@@ -209,7 +203,7 @@ body {
 .contact-form-header {
     font-size: 28px;
     font-weight: bold;
-    color: #333;
+    color: #0056b3; /* Modern blue text */
     margin-bottom: 40px;
 }
 
@@ -248,40 +242,39 @@ body {
     border-top: 2px solid #ccc;
     margin-top: 30px;
     margin-bottom: 30px;
-  }
-  
-  /* Style the featurette headings */
-  .featurette-heading {
+}
+
+/* Style the featurette headings */
+.featurette-heading {
     font-size: 28px;
-    color: #333;
+    color: #0056b3; /* Modern blue text */
     margin-top: 20px;
     margin-bottom: 10px;
-  }
-  
-  /* Style the lead paragraphs */
-  .lead {
+}
+
+/* Style the lead paragraphs */
+.lead {
     font-size: 16px;
     color: #555;
     line-height: 1.6;
     margin-bottom: 30px;
-  }
-  
-  /* Style the images */
-  .img-fluid {
+}
+
+/* Style the images */
+.img-fluid {
     max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
     border-radius: 5px;
-  }
-  
-  /* Style the links */
-  .featurette-heading a {
+}
+
+/* Style the links */
+.featurette-heading a {
     text-decoration: none;
-    color: #333;
-  }
-  
-  .featurette-heading a:hover {
+    color: #0056b3; /* Modern blue text */
+}
+
+.featurette-heading a:hover {
     text-decoration: underline;
-  }
-  
+}
