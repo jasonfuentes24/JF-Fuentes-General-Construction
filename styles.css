@@ -81,23 +81,17 @@
 }
 
 .cover {
-    background-image: url('home.pictures/Kitchen.home.web\ \(1\).webp');
+    background-image: url('home.pictures/Kitchen.home.web\ \(1\).webp'); /* Ensure this image is optimized */
     background-size: cover;
     background-position: center;
-    height: 50vh; /* Reduced height */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: black;
-    text-align: center;
-    padding: 20px; /* Padding for better spacing */
 }
+
+
 
 .btn-lg {
     padding: 15px 30px;
 }
 
-/* CSS for Modern Styling of Service Section */
 .services {
     background-color: #f8f9fa; /* Light gray background */
 }
@@ -142,6 +136,7 @@
 .service-item .btn:focus {
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); /* Blue focus shadow */
 }
+
 
 .about-img img {
     max-width: 100%;
