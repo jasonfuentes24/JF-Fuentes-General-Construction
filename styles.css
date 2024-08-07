@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .cover {
-    background-image: url('remodel/Kitchen.home.web.jpg');
+    background-image: url('Service/kitchen.cover.page.webp');
     background-size: cover;
     background-position: center;
     height: 100vh;
