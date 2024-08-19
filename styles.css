@@ -81,10 +81,62 @@
 }
 
 .cover {
-    background-image: url('services/kitchen.cover.page.mcclean.webp'); /* Ensure this image is optimized */
+    background-image: url('services/kitchen.cover.page.mcclean.webp');
     background-size: cover;
     background-position: center;
+    position: relative;
 }
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6); /* Dark semi-transparent background overlay */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1.display-4 {
+    font-size: 36px; /* Adjust font size for mobile */
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Text shadow for visibility */
+    margin-bottom: 20px;
+}
+
+p.lead {
+    font-size: 16px; /* Smaller font size for mobile */
+    margin-top: 10px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Text shadow for better readability */
+    color: #ffffff;
+}
+
+.btn-lg {
+    padding: 12px 20px; /* Adjust padding for mobile */
+    font-size: 16px; /* Adjust button text size for mobile */
+}
+
+@media (max-width: 768px) {
+    .cover {
+        height: 60vh; /* Adjust the height on mobile */
+    }
+    
+    h1.display-4 {
+        font-size: 28px; /* Smaller header font for mobile */
+    }
+
+    p.lead {
+        font-size: 14px; /* Smaller paragraph font for mobile */
+    }
+
+    .btn-lg {
+        font-size: 14px; /* Smaller button text size for mobile */
+        padding: 10px 18px; /* Adjust button padding for smaller screens */
+    }
+
+    .overlay {
+        padding: 10px; /* Reduce padding for mobile */
+        border-radius: 5px;
+    }
+}
+
 
 
 
