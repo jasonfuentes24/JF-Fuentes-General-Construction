@@ -1,32 +1,8 @@
-<<<<<<< HEAD
-/* Reset some default styles */
-body {
-    font-family: 'Lato', sans-serif;
-    background-color: #f8f8f8;
-    color: #333;
-}
-
-/* Header styles */
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
-}
-
-/* Navbar styles */
-.navbar {
-    background: linear-gradient(to bottom, #fff, rgba(255, 255, 255, 0.8));
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 10px 0;
-}
-
-.navbar-brand {
-    font-size: 24px;
-=======
 .review-link {
     display: inline-block;
     margin-top: 10px;
     color: #0056b3; /* Link color */
     text-decoration: none; /* Remove underline */
->>>>>>> 62d50e0b2d0cfeb959a1fd575110e5cfd6b8b119
     font-weight: bold;
 }
 
@@ -105,11 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .cover {
-<<<<<<< HEAD
-    background-image: url('Service/kitchen.cover.page.webp');
-=======
     background-image: url('services/kitchen.cover.page.mcclean.webp');
->>>>>>> 62d50e0b2d0cfeb959a1fd575110e5cfd6b8b119
     background-size: cover;
     background-position: center;
     position: relative;
