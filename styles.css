@@ -54,6 +54,10 @@
     }
 }
 
+.paragraph-highlight {
+    color: white !important; /* Force the text color to white */
+}
+
 .navbar .nav-link i {
     font-size: 20px;
     transition: color 0.3s;
@@ -81,7 +85,7 @@
 }
 
 .cover {
-    background-image: url('services/kitchen.cover.page.mcclean.webp');
+    background-image: url('home.page/Kitchen-Remodel-Bethesda-MD.webp');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -94,9 +98,8 @@
 }
 
 h1.display-4 {
-    font-size: 36px; /* Adjust font size for mobile */
+    font-size: 46px; /* Adjust font size for mobile */
     font-weight: bold;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Text shadow for visibility */
     margin-bottom: 20px;
 }
 

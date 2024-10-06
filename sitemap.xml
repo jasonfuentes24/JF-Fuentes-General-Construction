@@ -6,37 +6,35 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-
 <url>
   <loc>https://www.jfgeneralconstruction.com/</loc>
   <lastmod>2024-08-12T18:24:32+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.jfgeneralconstruction.com/index.html</loc>
+  <loc>https://www.jfgeneralconstruction.com/index</loc>
   <lastmod>2024-08-12T18:24:32+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.jfgeneralconstruction.com/services.html</loc>
+  <loc>https://www.jfgeneralconstruction.com/services</loc>
   <lastmod>2024-08-12T16:04:35+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.jfgeneralconstruction.com/gallery.html</loc>
+  <loc>https://www.jfgeneralconstruction.com/gallery</loc>
   <lastmod>2024-08-06T18:11:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.jfgeneralconstruction.com/faq.html</loc>
+  <loc>https://www.jfgeneralconstruction.com/faq</loc>
   <lastmod>2024-08-07T15:25:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.jfgeneralconstruction.com/contacts.html</loc>
+  <loc>https://www.jfgeneralconstruction.com/contact</loc>
   <lastmod>2024-08-07T15:26:07+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-
 
 </urlset>

@@ -1,5 +1,11 @@
+# This file is used to control how search engines index and crawl your website.
+
+# Allow all web crawlers full access
 User-agent: *
 Disallow:
 
-Sitemap: https://www.jfgeneralconstruction.com/sitemap.xml
+# Block access to specific directories
+Disallow: /cgi-bin/
 
+# Reference to the sitemap
+Sitemap: https://www.jfgeneralconstruction.com/sitemap.xml
