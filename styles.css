@@ -54,91 +54,6 @@
     }
 }
 
-.paragraph-highlight {
-    color: white !important; /* Force the text color to white */
-}
-
-.navbar .nav-link i {
-    font-size: 20px;
-    transition: color 0.3s;
-}
-
-.facebook-icon {
-    color: #3b5998; /* Facebook blue */
-}
-
-.google-icon {
-    color: #db4437; /* Google red */
-}
-
-.homeadvisor-icon {
-    color: #f7b519; /* HomeAdvisor yellow */
-}
-
-.navbar .nav-link i:hover {
-    opacity: 0.7; /* Slight transparency on hover */
-}
-
-.header-logo {
-    max-height: 100px; /* Adjust the logo size */
-    margin-bottom: 20px; /* Space between logo and heading */
-}
-
-.cover {
-    background-image: url('home.page/Kitchen-Remodel-Bethesda-MD.webp');
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
-
-.overlay {
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-}
-
-h1.display-4 {
-    font-size: 46px; /* Adjust font size for mobile */
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.btn-lg {
-    padding: 12px 20px; /* Adjust padding for mobile */
-    font-size: 16px; /* Adjust button text size for mobile */
-}
-
-@media (max-width: 768px) {
-    .cover {
-        height: 60vh; /* Adjust the height on mobile */
-    }
-    
-    h1.display-4 {
-        font-size: 28px; /* Smaller header font for mobile */
-    }
-
-    p.lead {
-        font-size: 14px; /* Smaller paragraph font for mobile */
-    }
-
-    .btn-lg {
-        font-size: 14px; /* Smaller button text size for mobile */
-        padding: 10px 18px; /* Adjust button padding for smaller screens */
-    }
-
-    .overlay {
-        padding: 10px; /* Reduce padding for mobile */
-        border-radius: 5px;
-    }
-}
-
-
-
-
-.btn-lg {
-    padding: 15px 30px;
-}
-
 .services {
     background-color: #f8f9fa; /* Light gray background */
 }
@@ -153,10 +68,6 @@ h1.display-4 {
 
 .service-item:hover {
     transform: translateY(-5px); /* Hover animation */
-}
-
-.service-item a {
-    text-decoration: none; /* Remove underline from links */
 }
 
 .service-item img {
@@ -183,7 +94,6 @@ h1.display-4 {
 .service-item .btn:focus {
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); /* Blue focus shadow */
 }
-
 
 .about-img img {
     max-width: 100%;
@@ -327,44 +237,3 @@ h1.display-4 {
     background: linear-gradient(to bottom, #222, #111);
 }
 
-/* Style the hr elements */
-.featurette-divider {
-    border-top: 2px solid #ccc;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-/* Style the featurette headings */
-.featurette-heading {
-    font-size: 28px;
-    color: #0056b3; /* Modern blue text */
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-/* Style the lead paragraphs */
-.lead {
-    font-size: 16px;
-    color: #555;
-    line-height: 1.6;
-    margin-bottom: 30px;
-}
-
-/* Style the images */
-.img-fluid {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    border-radius: 5px;
-}
-
-/* Style the links */
-.featurette-heading a {
-    text-decoration: none;
-    color: #0056b3; /* Modern blue text */
-}
-
-.featurette-heading a:hover {
-    text-decoration: underline;
-}
