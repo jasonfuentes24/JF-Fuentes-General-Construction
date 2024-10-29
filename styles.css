@@ -86,25 +86,21 @@
     background-position: center;
     position: relative;
 }
+.paragraph-highlight {
+    color: white !important; /* Force the text color to white */
+}
+
 
 .overlay {
-    background-color: rgba(0, 0, 0, 0.6); /* Dark semi-transparent background overlay */
     padding: 20px;
     border-radius: 10px;
     text-align: center;
 }
 
 h1.display-4 {
-    font-size: 36px; /* Adjust font size for mobile */
+    font-size: 46px; /* Adjust font size for mobile */
     font-weight: bold;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Text shadow for visibility */
     margin-bottom: 20px;
-}
-
-p.lead.cover {
-    font-size: 16px; /* Smaller font size for mobile */
-    margin-top: 10px;
-    
 }
 
 .btn-lg {
