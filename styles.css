@@ -85,11 +85,19 @@
 }
 
 .cover {
+<<<<<<< HEAD
     background-image: url('home.page/Kitchen-Remodel-Bethesda-MD.webp');
+=======
+    background-image: url('services/kitchen.cover.page.mcclean.webp');
+>>>>>>> c13e0284ab8714642c199fd7fd25f839eb0db809
     background-size: cover;
     background-position: center;
     position: relative;
 }
+.paragraph-highlight {
+    color: white !important; /* Force the text color to white */
+}
+
 
 .overlay {
     padding: 20px;

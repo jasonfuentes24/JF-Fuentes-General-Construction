@@ -32,7 +32,11 @@
   <priority>0.80</priority>
 </url>
 <url>
+<<<<<<< HEAD
   <loc>https://www.jfgeneralconstruction.com/contact</loc>
+=======
+  <loc>https://www.jfgeneralconstruction.com/contact.html</loc>
+>>>>>>> c13e0284ab8714642c199fd7fd25f839eb0db809
   <lastmod>2024-08-07T15:26:07+00:00</lastmod>
   <priority>0.64</priority>
 </url>
